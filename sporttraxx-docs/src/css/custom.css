@@ -1,0 +1,186 @@
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/* your custom css */
+
+:root {
+    --ifm-color-navbar: #343a40;
+    --ifm-color-link: #0e88d3;
+    --ifm-color-link-hover: #309bdd;
+    --ifm-color-navbar-hover: #0277bd;
+    --ifm-color-text: black;
+    --ifm-code-font-size: 95%;
+}
+
+html[data-theme='dark'] {
+--ifm-color-text: rgb(219, 219, 219);
+--ifm-homepage-logo: url('/../static/img/loghi/sl-white.svg');
+/* any other colors you wish to overwrite */
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
+
+.sport {
+    fill: var(--ifm-color-text);
+}
+
+small {
+    color: var(--ifm-color-text);
+}
+
+.row .col.col--4 {
+    --ifm-col-width: 330px;
+}
+
+.logo-homepage {
+    background-size: 100px 82px;
+    background: var(--ifm-homepage-logo);
+}
+
+.navbar {
+    background-color: var(--ifm-color-navbar);
+}
+
+.navbar__link {
+    border-radius: 5px;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar__link:hover {
+    color: white;
+    background-color: var(--ifm-color-navbar-hover);
+}
+
+.hero__subtitle {
+    margin-top: 40px;
+    color: var(--ifm-color-text);
+}
+
+.menu__link:hover, .menu__link--active {
+    color: var(--ifm-color-link);
+}
+
+.table-of-contents__link:hover, .table-of-contents__link--active {
+    color: var(--ifm-color-link);
+}
+
+.footer {
+    background: var(--ifm-color-navbar);
+}
+
+a {
+    color: var(--ifm-color-link);
+}
+
+a:hover {
+    color: var(--ifm-color-link-hover);
+}
+.featureTitle {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.toc .toggleNav ul li.navListItemActive a {
+    color: yellow;
+}
+
+.hardware-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.devices {
+    margin-top: 40px;
+    width: 100%;
+}
+.vertical-hardware {
+    width: 40%;
+}
+
+.vertical-hardware-larger {
+    width: 50%;
+}
+
+.jpeg {
+    margin-bottom: 40px;
+    width: 60%;
+}
+
+.outer-dot {
+    height: 34px;
+    width: 34px;
+    background-color: darkgray;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.dot {
+    height: 32px;
+    width: 32px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 1px;
+    margin-left: 1px;
+    display: inline-block;
+  }
+
+.second-dot {
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.green {
+      background: lawngreen;
+}
+.red {
+    background: red;
+}
+.blue {
+    background: blue;
+}
+.light-blue {
+    background: deepskyblue;
+}
+.orange {
+    background: orange;
+}
+.gray {
+    background: grey;
+}
+.yellow {
+    background: yellow;
+}
+.blue-faded {
+    background: blue;
+    opacity: 50%;
+}
+
+.number {
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    margin-left: 4px;
+}
