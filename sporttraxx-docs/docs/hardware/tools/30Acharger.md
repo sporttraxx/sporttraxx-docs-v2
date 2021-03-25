@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 
 <img
-  src={require('/img/devices/30ACharger.jpeg').default}
+  src={require('/img/devices/30Acharger.jpeg').default}
   alt="Example banner"
   class="hardware-image jpeg"
 />
