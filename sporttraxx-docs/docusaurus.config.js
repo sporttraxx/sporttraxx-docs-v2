@@ -55,7 +55,7 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://google.com',
+          href: 'https://docs.google.com/spreadsheets/d/1BNkTl2ejq1C3rnIihCO_W8eVTpJMSzOGK4aEu87oDJM/edit?usp=sharing',
           label: 'Updates',
           position: 'right',
         },

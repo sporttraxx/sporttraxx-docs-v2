@@ -23,7 +23,7 @@ const features = [
   },
   {
     title: 'Hardware',
-    imageLink: 'https://docs.google.com/spreadsheets/d/1BNkTl2ejq1C3rnIihCO_W8eVTpJMSzOGK4aEu87oDJM/edit?usp=sharing',
+    imageLink: 'docs/hardware/hardware-intro',
     imageUrl: 'img/hardware.png'
   },
 ];
