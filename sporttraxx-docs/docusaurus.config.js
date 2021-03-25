@@ -11,11 +11,24 @@ module.exports = {
   projectName: 'sporttraxx-docs', // Usually your repo name.
 
   noIndex: true,
-  
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'it'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+      },
+      it: {
+        label: 'Italiano',
+      },
+    },
+  },
+
   plugins: [
     [require.resolve('@cmfcmf/docusaurus-search-local'), {
       indexBlog: false,
-      language: "en",
+      language: ["en", "it"],
     }]
   ],
 
@@ -59,6 +72,11 @@ module.exports = {
           label: 'Updates',
           position: 'right',
         },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
+
       ],
     },
     footer: {

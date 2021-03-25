@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tracking.category.Tracking": {
+    "message": "Tracking",
+    "description": "The label for category Tracking in sidebar tracking"
+  },
+  "sidebar.tracking.category.Pages": {
+    "message": "Pagine",
+    "description": "The label for category Pages in sidebar tracking"
+  },
+  "sidebar.timing.category.Timing": {
+    "message": "Timing",
+    "description": "The label for category Timing in sidebar timing"
+  },
+  "sidebar.timing.category.Pages": {
+    "message": "Pagine",
+    "description": "The label for category Pages in sidebar timing"
+  },
+  "sidebar.results.category.Results": {
+    "message": "Results",
+    "description": "The label for category Results in sidebar results"
+  },
+  "sidebar.hardware.category.Introduction": {
+    "message": "Introduzione",
+    "description": "The label for category Introduction in sidebar hardware"
+  },
+  "sidebar.hardware.category.Devices": {
+    "message": "Dispositivi",
+    "description": "The label for category Devices in sidebar hardware"
+  },
+  "sidebar.hardware.category.Accessories and Tools": {
+    "message": "Strumenti e accessori",
+    "description": "The label for category Accessories and Tools in sidebar hardware"
+  }
+}

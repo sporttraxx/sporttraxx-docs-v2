@@ -1,0 +1,22 @@
+{
+  "item.label.Tracking": {
+    "message": "Tracking",
+    "description": "Navbar item with label Tracking"
+  },
+  "item.label.Timing": {
+    "message": "Timing",
+    "description": "Navbar item with label Timing"
+  },
+  "item.label.Results": {
+    "message": "Results",
+    "description": "Navbar item with label Results"
+  },
+  "item.label.Hardware": {
+    "message": "Hardware",
+    "description": "Navbar item with label Hardware"
+  },
+  "item.label.Updates": {
+    "message": "Aggiornamenti",
+    "description": "Navbar item with label Updates"
+  }
+}
