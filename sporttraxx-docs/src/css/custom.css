@@ -58,8 +58,7 @@ small {
 .navbar__link {
     border-radius: 5px;
     color: white;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 3px;
 }
 
 .navbar__link:hover {
@@ -75,6 +74,29 @@ small {
 .hero__subtitle {
     margin-top: 40px;
     color: var(--ifm-color-text);
+}
+
+.dropdown__link {
+    color: white;
+    margin-bottom: 2px;
+}
+
+.dropdown__link:hover {
+    color: white;
+    background-color: var(--ifm-color-link-hover);
+}
+
+.dropdown__link--active {
+    color: white;
+    background-color: var(--ifm-color-navbar-hover);
+}
+
+.navbar__search-input:focus {
+    outline: none;
+}
+
+.dropdown__menu {
+    background-color: var(--ifm-color-navbar);
 }
 
 .menu__link:hover, .menu__link--active {

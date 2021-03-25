@@ -2,7 +2,7 @@ module.exports = {
   tracking: [
     {
       type: 'category',
-      label: 'Tracking',
+      label: 'Event management',
       items: [
         'tracking/tracking-before',
         'tracking/tracking-during',
@@ -38,7 +38,7 @@ module.exports = {
   timing: [
     {
       type: 'category',
-      label: 'Timing',
+      label: 'Event management',
       items: [
         'timing/timing-before',
         'timing/timing-during',
@@ -58,7 +58,7 @@ module.exports = {
   results: [
     {
       type: 'category',
-      label: 'Results',
+      label: 'Event management',
       items: [
         'results/results-before',
         'results/results-during',
@@ -103,5 +103,5 @@ module.exports = {
   ],
 
 
-  
+
 };

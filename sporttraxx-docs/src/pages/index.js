@@ -60,7 +60,7 @@ export default function Home() {
           </svg>
           <p className="hero__subtitle">
             <Translate id="homepage.tagline">
-              {siteConfig.tagline}
+              This website is addressed to Sporttraxx Team members. Its aim is to provide a full description of the features of both hardware and software, and a guide of most of the functions and options.
             </Translate></p>
           <p className="hero__subtitle">🚧 Work in Progress 🚧</p>
         </div>
