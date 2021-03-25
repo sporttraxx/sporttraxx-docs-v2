@@ -32,25 +32,25 @@ module.exports = {
       items: [
         {
           to: 'docs/tracking/tracking-before',
-          activeBasePath: 'docs',
+          activeBasePath: 'docs/tracking',
           label: 'Tracking',
           position: 'right',
         },
         {
           to: 'docs/timing/timing-before',
-          activeBasePath: 'docs',
+          activeBasePath: 'docs/timing',
           label: 'Timing',
           position: 'right',
         },
         {
           to: 'docs/results/results-before',
-          activeBasePath: 'docs',
+          activeBasePath: 'docs/results',
           label: 'Results',
           position: 'right',
         },
         {
           to: 'docs/hardware/hardware-intro',
-          activeBasePath: 'docs',
+          activeBasePath: 'docs/hardware',
           label: 'Hardware',
           position: 'right',
         },

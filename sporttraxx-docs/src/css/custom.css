@@ -64,6 +64,11 @@ small {
 
 .navbar__link:hover {
     color: white;
+    background-color: var(--ifm-color-link-hover);
+}
+
+.navbar__link--active {
+    color: white;
     background-color: var(--ifm-color-navbar-hover);
 }
 
