@@ -2,7 +2,7 @@
 module.exports = {
   title: 'Sporttraxx',
   tagline: 'This website is addressed to Sporttraxx Team members. Its aim is to provide a full description of the features of both hardware and software, and a guide of most of the functions and options.',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://docs.sporttraxx.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -74,8 +74,8 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          //editUrl:
+          //  'https://github.com/facebook/docusaurus/edit/master/website/',
           showLastUpdateTime: true,
         },
         theme: {
