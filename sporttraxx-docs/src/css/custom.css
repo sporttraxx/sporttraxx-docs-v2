@@ -124,6 +124,11 @@ a:hover {
     width: 60%;
 }
 
+.svg {
+    max-width:65%;
+    height:auto;
+}
+
 .outer-dot {
     height: 34px;
     width: 34px;
