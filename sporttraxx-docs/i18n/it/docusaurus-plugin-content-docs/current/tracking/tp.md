@@ -4,39 +4,39 @@ title: TP
 sidebar_label: TP
 custom_edit_url: null
 ---
-As an alternative tool to the [Map2D](map2d), where vehicles are running along twisty tracks, this page shows the advancing of all competitors, according to their starting order, on horizontal bars. The vertical lines show relevant waypoints of the imported KML file. 
+Nata come strumento alternativo alla [Map2D](map2d), dove i veicoli si muovono su una traccia spesso piena di curve e tortuosa, questa pagina mostra il procedere dei concorrenti, secondo il loro ordine di partenza, su barre orizzontali. Le linee verticali segnano i Waypoint ritenuti significativi del file KML importato. 
 
-![TP Page](/img/screenshots/tp2.png)
+![TP](/img/screenshots/tp2.png)
 
-Competitors' icons run from left to right, showing their actual speed and their status using the same colours as in the [Map2D](map2d). Up to all the stages and the road sections can be switched on or off,  and the competitor's  lists can be synchronized and scrolled up and down.
+Le icone dei concorrenti si muovono da sinistra verso destra, mostrando la velocità istantanea e il loro stato (tramite gli stessi colori usati nella [Map2D](map2d)). Possono essere mostrate/nascoste fino a tutte le prove speciali e i trasferimenti, e la lista dei concorrenti può essere sincronizzata.
 
 
-## Functions
+## Funzioni
 
-### Stages buttons
-Click to show/hide a stage.
+### Pulsanti delle prove speciali
+Selezionare per mostrare/nascondere una prova speciale.
 ### Legenda
-Colors legenda is available in the lower left corner under the **info** icon and matches with the colors of [Map2D](map2d).
+Una legenda è accessibile in basso a sinistra sotto l'icona **info** e riporta i colori degli stati della [Map2D](map2d).
 ### Starting order
-Links to the [Order](order) page.
+Link alla pagina [Order](order).
 ### Edit
-Opens an editor where stages, road sections and waypoints can be shown/hidden.
+Apre un editor dove prove speciali, trasferimenti e Waypoint possono esser emostrati/nascosti.
 
-## Menu functions
+## Funzioni del menù
 ### Single line view 
-Switch the view to a different one, where the competitors are shown moving along a single line
+Cambiare la modalità di visualizzazione con una diversa, dove i concorrenti sono mostrati tutti su una singola linea.
 
-![TP Page](/img/screenshots/tp2h.png)
+![TP](/img/screenshots/tp2h.png)
 
 ### Speed 
-Show/hide the speed of each competitor (available only in multi line mode)  
+Mostra/nasconde le velocità dei concorrenti (disponibile solo in modalità multi-line)  
 ### Editable
-Switch _on_ and _off_ to be able to move manually (drag and drop) the icon along its line, in case of missing automatic update of position. **Note**: do **NEVER** push manually an icon along its line, if you are not 100% sure about its exact location (available only in multi line mode)
+Abilitare/disabilitare l'interruttore per poter muovere manualmente (drag and drop) le icone lungo le loro tracce, nel caso in cui mancassero gli aggiornamenti automatici di posizione (disponibile solo in modalità multi-line).  
+**Attenzione**: non muovere **mai** un'icona manualmente, se non si è assolutamente sicuri della sua reale ed esatta posizione.
 
 ## Setup
-1. Press the **edit** button to import the KML file, which was prepared with the proper order of stages, points, roadsections.
-2. Enable or disable the tracks or points you want to see in the TP page lines. Then  come back to [TP](tp).
-3. Press the **starting order** button. You will be linked to [Order](order) page. Drag and drop the vehicles in their correct starting order.
-4. Confirm with the save button on the bottom of the vehicle list. Alternatively you can use the **comma separated start order** button and edit the list manually.
-5. Go back to TP link
-6. Switch _on_ or _off_ the stages you want from the list in the upper right corner.  
+1. Premere il pulsante **edit** per importare il file KML preparato in precedenza con le prove speciali, Waypoint e trasferimenti.
+2. Abilitare/disabilitare le tracce/punti che si vogliono mostrare nella TP. Tornare alle [TP](tp)
+3. Premere il pulsante **starting order**. SI sarà reindirizzati alla pagina [Order](order). Selezionare e trascinare i veicoli nel loro ordine corretto..
+4. Confermare con il pulsante _Save_ alla fine della lista dei veicoli.
+5. Tornare alla [TP](tp).  

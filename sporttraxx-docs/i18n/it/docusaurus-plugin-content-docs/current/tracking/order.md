@@ -4,14 +4,14 @@ title: Order
 sidebar_label: Order
 custom_edit_url: null
 ---
-This page allows to sort the vehicles according to the starting list.
-It works for [Overview2](overview2) and [TP](tp) pages. 
+Questa pagina permette di ordinare i veicoli secondo la lista di partenza.
+Lavora per le pagine [Overview2](overview2) e [TP](tp). 
 
-![Order Page](/img/screenshots/order.png)  
+![Order](/img/screenshots/order.png)  
 
-## Use
+## Uso
  
-1. Drag and drop the vehicles in the desired starting order.
-2. Confirm with the **save** button at the end of the list
+1. Selezionare e tracinare i veicoli nell'ordine di partenza desiderato.
+2. Confermare con il pulsante **save** al termine della lista.
 
-Alternatively you can use the **Comma separated start order** button in the top-right corner of the page and edit the list manually by typing the numbers separated by a comma. 
+In alternativa, è anche possibile usare il pulsante **Comma separated start order** in alto a destra e modificare la lista manualmente, digitando i numeri di gara separati da una virgola. 

@@ -1,7 +1,7 @@
 ---
 id: timing-after
-title: After the race
-sidebar_label: After
+title: Dopo un evento
+sidebar_label: Dopo
 custom_edit_url: null
 ---
-Make sure to deactivate all clocks of that race.
+Ricordarsi di disattivare tutti gli [Orologi](../hardware/clock) per quell'evento.

@@ -5,16 +5,16 @@ sidebar_label: Issues
 custom_edit_url: null
 ---
 
-This page allows communication by means of threads between Sporttraxx headquarters, race control and the Sporttraxx members on the field.  
+Questa pagina permette la comunicazione, attraverso threads, tra la sede SPorttraxx, la direzione di gara e i membri Sporttraxx sul campo di gara.
 
-![Issues Page](/img/screenshots/issues.png)
+![Issues](/img/screenshots/issues.png)
 
-The Sporttraxx headquarters and race control can instruct interventions on vehicles, share information, checks and reports. From the field the members can reply, confirm and request actions from race control.  Each thread can be opened, closed and eventually reopened.  All messages enter a history that allows, after the race, to evaluate technical issues, evaluate the performances of the trackers and become a valid support for the next coming edition of that event.
+La sede SPorttraxx e/o la direzione di gara possono richiedere interventi sui veicoli, condividere informazioni, conferme e report. Dal campo di gara, i membri SPorttraxx possono rispondere, confermare e richiedere azioni da parte della direzione di gara. Ogni thread può essere aperto, chiuso e in seguito ri-aperto. Tutti i messaggi fanno parte di una cronologia che permette, una volta temrinata la gara, di valutare problemi di tipo tecnico, valutare le prestazioni dei dispositivi. Questa cronologia può rivelarsi un valido supporto per la preparazione dell'evento successivo.
 
-## Functions
+## Funzioni
 
 ### New
-It opens a new thread. Assign a name to it and its priority level.
-Type any text in it and confirm with the **Create** button.
-A notification will be sent to Sporttraxx members.  They will be able to open that thread and reply through their comments. A thread can be anytime closed but also reopened, if needed.  
-**Note**: whenever you type in the text box a number using the # symbol in front of it (eg. #56), then the thread will show the device number(s) associated with that competitor. 
+Apre un nuovo thread al quale è possibile assegnare un nome e un livello di priorità. Digitare un messaggio e confermare con il pulsante **Create**.
+Una notifica sarà mandata ai membri Sporttraxx, i quali potranno aprire il thread e commentarlo. Un thread può essere chiuso in qualsiasi momento, ma può anche essere ri-aperto, se necessario.  
+
+**Attenzione**: quando si digita nel testo del thread un numero preposto con il simbolo '#', il thread mostrerà l'ID del dispositivo associato a quel concorrente.

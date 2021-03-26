@@ -1,15 +1,14 @@
 ---
 id: results-during
-title: During the race
-sidebar_label: During
+title: Durante un evento
+sidebar_label: Durante
 custom_edit_url: null
 ---
 
 :::caution
 
-This page is a Work in Progress!
+Pagina in costruzione!
 
 :::
 
 ## TODO
-During introduction

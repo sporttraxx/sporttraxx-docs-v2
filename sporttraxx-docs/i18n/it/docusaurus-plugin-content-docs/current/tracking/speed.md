@@ -5,9 +5,9 @@ sidebar_label: Speed
 custom_edit_url: null
 ---
 
-This page allows users to search automatically for daily maximum over speeding infringements.
+Questa pagina permette la ricerca automatica delle infrazioni di velocità massima giornaliera.
 
-![Speed Page](/img/screenshots/speed.png)
+![Speed](/img/screenshots/speed.png)
 
-## Use
-Select a date and set the maximum speed. Press search. The details of the overspeeding will be shown listing how many trackpoints with excess speed have been collected for each competitor on that day, specifying also his class/group. That last information is coming from the results database (if any). The next step to report the details is using the track_analysis links.
+## Uso
+Selezionare una data, digitare la velocità massima e premere il pulsante _Search_. Verranno mostrati i dettagli dell'infrazione, elencando quantie punti con eccesso di velocità sono stati collezionati quel giorno per ogni concorrente, con l'ulteriore informazione della sua classe/gruppo. Quest'ultima informazione viene, se presente, dal database del modulo [Results](../results/results-before). Lo step successivo è usare le pagine di [Track Analysis](trackanalysis) o [Track Analysis 2](trackanalysis2) per aprire un report.

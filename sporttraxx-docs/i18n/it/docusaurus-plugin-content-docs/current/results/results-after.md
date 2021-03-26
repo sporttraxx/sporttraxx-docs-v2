@@ -1,14 +1,13 @@
 ---
 id: results-after
-title: After the race
-sidebar_label: After
+title: Dopo un evento
+sidebar_label: Dopo
 custom_edit_url: null
 ---
 :::caution
 
-This page is a Work in Progress!
+Pagina in construzione!
 
 :::
 
 ## TODO
-After introduction

@@ -4,12 +4,12 @@ title: Splits
 sidebar_label: Splits
 custom_edit_url: null
 ---
-This page shows unofficial virtual **split times** and the **provisional** ranking of the competitors based on their start times, transit time on selected waypoints and finish times.
+Questa pagina mostra i **tempi intermedi** non ufficiali e il **ranking** provvisorio dei concorrenti, basato sul tempo di partenza, tempi di passaggio su determinati Waypoint e tempo di arrivo.
 
 ![Splits Page](/img/screenshots/splits.png)
 
-Different stages can be selected in the scroll down menu below the race's name.  
-Start times and finish times are retrieved from the results software. Intermediate times are the passage times of the competitor on waypoints which are selected in the [TP](../tracking/tp) page's edit settings.  
-The ranking is calculated on the available times and is always **unofficial**. Accuracy is +/- 5 seconds.  
+Prove speciali diverse possono essere selezionate dal menu a tendina sotto al nome dell'evento.  
+I tempi di partenza e di arrivo vengono recuperati dal modulo [Results](../results/results-before). I tempi intermedi sono i tempi di passaggio dei concorrenti sui Waypoint selezionati nelle impostazioni di edit della pagina [TP](../tracking/tp).  
+Il ranking è calcolato sui tempi disponibili ed è sempre **non ufficiale**. L'accuratezza è di +/- 5 secondi.  
 
-**Note**: A missing start time in the results software will not allow the split times for that competitor.
+**Attenzione**: Un tempo di partenza mancante precluderà i tempi intermedi e di arrivo per quel concorrente.

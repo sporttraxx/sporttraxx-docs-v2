@@ -1,17 +1,17 @@
 ---
 id: results-before
-title: Before the race
-sidebar_label: Before
+title: Prima di un evento
+sidebar_label: Prima
 custom_edit_url: null
 ---
 
-To setup the results service of an event the following info are requested:
-* List of competitors with all the details to be filled into [here](/documents/rally_ev.xlsx)
-* Logos of the event for editing the headers and footers of the printouts
-* Names of Coc and Stewards signing the printouts and the final classification
-* List of qualifiers, if filtered classifications are required
-* Itinerary of race
+Per preparare il servizio di Results per un evento, sono necessarie le seguenti informazioni:
+* Lista dei concorrenti con tutti i dettagli da inserire [qui](/documents/rally_ev.xlsx)
+* Logo/loghi dell'evento da inserire nelle classifiche
+* Nomi di Coc e Steward che firmeranno le stampe e le classifiche finali
+* Lista dei qualificatori necessari, se previsti
+* Itinerary della gara
 
-Forward these information to Sporttraxx.  
+Successivamente inoltrare queste informazioni a Sporttraxx. 
 
-The next steps are actually reserved to Sporttraxx Administrators. In the coming future, Sporttraxx Team members will be trained to setup events
+Gli step successivi del setup rimangono per ora riservati agli amministratori Sporttraxx.

@@ -14,11 +14,11 @@ custom_edit_url: null
 ## Descrizione
 Questo orlogio è basato sul più noto ECM RallyTimer inglese. È stato ripensato in un nuovo case stampato in 3D e prevede:
 * GSM/GPRS/GPS modem GL200TEST integrato
-* pacco batterie in litio da 5200mAh con ricariva veloce (attorno a 6 ore per una ricarica completa
-* nuovi connettori M8 IP65 per fotocellula, porta seriale RS232 e porta 'Data')
-* interruttore per isolare temporaneamente la fotocellula dall'orologio
-* pulsante di STOP riposizionato
-* connettori di ricarica magnetici (Sporttraxx standard)
+* Pacco batterie in litio da 5200mAh con ricarica veloce (circa 6 ore per una ricarica completa)
+* Nuovi connettori M8 IP65 per fotocellula, porta seriale RS232 e porta 'Data')
+* Interruttore per isolare temporaneamente la fotocellula dall'orologio
+* Pulsante di STOP riposizionato
+* Connettori di ricarica magnetici (Sporttraxx standard)
 * LED per test di connessione GPRS
 
 ## Download

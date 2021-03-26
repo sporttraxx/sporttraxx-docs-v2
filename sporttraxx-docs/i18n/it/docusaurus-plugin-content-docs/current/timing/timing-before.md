@@ -1,15 +1,14 @@
 ---
 id: timing-before
-title: Before the race
-sidebar_label: Before
+title: Prima di un evento
+sidebar_label: Prima
 custom_edit_url: null
 ---
 
-To setup the timing service of an event the following info are requested:
-* List of clocks (ID) assigned to specific places
-* Itinerary of race
+Per preparare il servizio di cronometraggio per un evento, sono necessarie le seguenti informazioni:
+* Lista degli [Orologi](../hardware/clock) assegnati agli specifici punti di interesse
+* Itinerario della gara
 
-Forward these information to Sporttraxx.
+Inoltrare queste informazioni a Sporttraxx.
 
-The next steps are actually reserved to Sporttraxx Administrators. In the coming
-future, Sporttraxx Team members will be trained to setup events.
+Gli step successivi del setup rimangono per ora riservati agli amministratori Sporttraxx.

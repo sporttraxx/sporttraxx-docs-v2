@@ -4,19 +4,17 @@ title: Time check
 sidebar_label: Time check
 custom_edit_url: null
 ---
-This page allows users to search automatically for transit times on start and finish waypoints. 
+Questa pagina permette di cercare automaticamente i tempi di passaggio sulla partenza e sull'arrivo.
 
 ![Timecheck](/img/screenshots/timecheck.png)  
 
-The precision of the reported times is related to the accuracy of the location on the map of the start/finish waypoints and the transmission frequency of the tracking devices.  With a standard Sporttraxx GPRS tracker it is around +/- 5 seconds.
+La precisione dei tempi riportati dipende dall'accuratezza del posizionamento sulla mappa dei punti di Start e Finish e dalla frequenza di trasmissione dei dispositivi di tracking (with a standard Sporttraxx GPRS tracker it is around +/- 5 seconds).
 
-## Use
-1. Select a date. 
-2. Select a time window, to be able to distinguish between repeated passages on same points.
-3. Select the stages to extract their Start/Finish transit times.
-4. Select the vehicles to analyze.  
-5. Press the Process button
+## Uso
+1. Selezionare una giornata di gara. 
+2. Selezionare una finestra temporale, per distinguere passaggi ripetuti sugli stessi punti.
+3. Selezionare le prove speciali per estrarre i tempi di passaggio sui rispettivi Start/Finish.
+4. Selezionare i(l) veicoli(o) da analizzare.  
+5. Premere sul pulsante _Process_.
 
-If some data are not available, they can be searched using the [Track Analysis](trackanalysis) links.
-
-The timing points must be very precise and can be adjusted in the [Track Analysis](trackanalysis) page.
+Se qualche informazione non sembra disponibile, usare la pagina di [Track Analysis](trackanalysis) dove è anche possibile aggiustare la posizione dei punti di cronometraggio, visto che la loro posizione deve essere il più precisa possibile.

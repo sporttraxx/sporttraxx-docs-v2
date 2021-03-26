@@ -99,6 +99,10 @@ small {
     background-color: var(--ifm-color-navbar);
 }
 
+.menu__list-item li {
+    font-size: 15px;
+    font-weight:500;
+}
 .menu__link:hover, .menu__link--active {
     color: var(--ifm-color-link);
 }

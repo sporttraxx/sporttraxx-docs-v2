@@ -11,6 +11,6 @@ Queste due pagine permettono il monitoraggio tecnico di tutte le funzionalità d
 
 La [Map2D](map2d) mostra i movimenti dei concorrenti e dei veicoli di servizio sulla traccia di gara.  
 
-Le eventuali segnalazioni vengono registrate e sono consultabili sulla pagine [Alarms](alarms).  
+Le eventuali segnalazioni vengono registrate e sono consultabili sulla pagina [Alarms](alarms).  
 
 Report possono essere costruiti nella [Track Analysis](trackanalysis) e nella [Track Analysis 2](trackanalysis2).

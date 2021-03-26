@@ -5,18 +5,18 @@ sidebar_label: Collect
 custom_edit_url: null
 ---
 
-This page allows the fast and reliable management of the collection of the trackers during and at the end of the event. Designed for best use on smartphones and tablets.  
+Questa pagina permette una veloce e sicura gestione della raccolta dei tracker, durante e al termine dell'evento. Pensata per essere usata principalmente su smartphone e/o tablet.  
 
 ![Collect Page](/img/screenshots/collect.png)
 
-## Functions
+## Funzioni
 
 ### Collect
-Type the number of the vehicle whose tracker you are collecting and press enter. 
-A box will confirm the ID number of that device (eventually you might see 2 tracker’s IDs because that vehicle was also having an alias, that you are eventually also collecting). If you indeed have in your hands that (or those 2) devices, then confirm pressing the **Collect** button.  
-If that number has already been collected, and you are mistyping the number of another device, overwrite it with the correct number and confirm.  
-If the typing mistake happened earlier and you are indeed typing the number of the tracker you have now, then you will get a notification saying:  “_set as not collected_”, then, by pressing on it , you cancel the previous note. At this point you can retype that number and proceed. Do not forget to manage the previous mistake.  
+Digitare il numero del concorrente di cui si sta recuperando il tracker e premere invio. 
+Un riquadro confermerà l'ID di quel dispositivo (potrebbero esser mostrati due ID nel caso in cui quel veicolo abbia un alias associato). Se l'ID o gli ID corrispondono a quello/i dei dispositivi raccolti, confermare con il pulsante **Collect**.  
+Nel caso in cui venga digitato un numero sbagliato e quell'unità sia già stata raccolta, sovrascrivere con il numero corretto e confermare.  
+Se l'errore risale ad un'altra unità e si è **sicuri** del numero del tracker che si sta raccogliendo, apparirà una notifica riportante:  “_set as not collected_”. Cliccandoci sopra, si elimina la nota precedente. A questo punto digitare nuovamente il numero e procedere. Non dimenticarsi di gestire l'errore precedente.  
   ### Vehicles
-The list of vehicles is shown and for the collected ones a small icon will be displayed.
+Apre l'intera lista dei concorrenti e per i dispositivi raccolti verrà mostrata una piccola icona.
 
 ![Collect Page](/img/screenshots/collect2.png)
