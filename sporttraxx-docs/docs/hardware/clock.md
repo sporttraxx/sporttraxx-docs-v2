@@ -23,4 +23,4 @@ This timing clock is based on the well known british ECM Rallytimer. It has been
 
 ## Download
 Basic instructions for Marshalls: [Instructions](/documents/marshall-instructions.pdf)  
-Special instructions for Sporttraxx Timekeeper:
+Special instructions for Sporttraxx Timekeeper: COMING

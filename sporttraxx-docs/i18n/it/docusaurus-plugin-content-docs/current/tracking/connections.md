@@ -4,6 +4,11 @@ title: Connections
 sidebar_label: Connections 🚧
 custom_edit_url: null
 ---
+:::caution
+
+Questa pagina sarà sostituita!
+
+:::
 
 This page allows the monitoring of trackers regardless if they're assigned or not to an event. It shows and counts the number of trackers which are actually connected to GPRS and those with a valid GPS position.  
 

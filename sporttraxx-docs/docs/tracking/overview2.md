@@ -4,6 +4,11 @@ title: Overview2
 sidebar_label: Overview2 🚧
 custom_edit_url: null
 ---
+:::caution
+
+This page is going to be replaced!
+
+:::
 This page shows all the relevant information about the trackers and their connection status. Its graphic structure is more suitable than the [Overview](overview.md) page for events with many competitors as it avoids the continuous scrolling up and down along a vertical list.
 
 ![Overview Page](/img/screenshots/overview2.png)

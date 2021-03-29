@@ -6,9 +6,6 @@ custom_edit_url: null
 ---
 :::caution
 
-This page is a Work in Progress!
+Work in Progress!
 
 :::
-
-## TODO
-After introduction

@@ -19,4 +19,3 @@ This page provides statistics about alarms (SOS/OK/ADA/GMW) and other events e.g
 ### Alarms
 Select to show alarms released during the race, listed by type. Clicking on them shows who raised it and how many times.
 ### Connections
-TODO

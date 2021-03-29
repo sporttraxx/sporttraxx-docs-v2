@@ -4,6 +4,11 @@ title: Overview
 sidebar_label: Overview 🚧
 custom_edit_url: null
 ---
+:::caution
+
+Questa pagina sarà sostituita!
+
+:::
 This page allows the main management of the tracking devices, monitoring their movement/speed, connection status, GPS position, battery level and possible states the device could be in. 
 It also possible to customize the [Map2D](map2d) icons with colors and activate the auto/request position option.
 
