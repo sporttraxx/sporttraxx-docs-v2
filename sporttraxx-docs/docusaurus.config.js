@@ -26,10 +26,23 @@ module.exports = {
   },
 
   plugins: [
-    [require.resolve('@cmfcmf/docusaurus-search-local'), {
-      indexBlog: false,
-      language: ["en", "it"],
-    }]
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: true,
+        highlightSearchTermsOnTargetPage: true,
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        language: ["en", "it"],
+        // ```
+        // When applying `zh` in language, please install `nodejieba` in your project.
+      },
+    ],
   ],
 
   themeConfig: {
