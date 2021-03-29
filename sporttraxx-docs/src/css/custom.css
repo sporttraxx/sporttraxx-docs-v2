@@ -215,7 +215,7 @@ a:hover {
 }
 .blue-faded {
     background: blue;
-    opacity: 50%;
+    opacity: 0.5;
 }
 
 .number {
