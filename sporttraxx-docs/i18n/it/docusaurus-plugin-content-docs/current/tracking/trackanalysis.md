@@ -5,7 +5,7 @@ sidebar_label: Track Analysis
 custom_edit_url: null
 ---
 
-Questa potente strumento permette diversi tipi di indagine durante e/o in seuito all'evento, analizzando i dati raccolti durante la gara.
+Questa potente strumento permette diversi tipi di indagine durante e/o in seguito all'evento, analizzando i dati raccolti durante la gara.
 
 ![Track Analysis Page](/img/screenshots/trackanalysis.png)
 

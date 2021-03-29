@@ -36,7 +36,7 @@ Il **colore** dell'icona di un concorrente è essenziale nel comprendere il suo 
 Il colore di un'icona può essere:  
 
 * <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot blue"><span class="number">101</span></span></span></span> Acceso finchè la posizione viene aggiornata (trasmissione non pi vecchia di 20 secondi.  
-* <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot blue-faded"><span class="number">101</span></span></span></span> Sbiadire in maniera graduale man mano che la posizione diventa vecchia (trasmissione più vecchia di 20 secondi).  
+* <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot blue-faded"><span class="number">101</span></span></span></span> Sbiadita in maniera graduale man mano che la posizione diventa vecchia (trasmissione più vecchia di 20 secondi).  
 
 **Attenzione**: assicurarsi che l'ora del proprio PC sia sincronizzata con l'ora GPS/Internet, poiché il livello di dissolvenza può esserne influenzato.
 
