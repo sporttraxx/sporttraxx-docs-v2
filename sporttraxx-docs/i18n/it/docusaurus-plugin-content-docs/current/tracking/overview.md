@@ -23,7 +23,7 @@ It also possible to customize the [Map2D](map2d) icons with colors and activate 
 * _**Pos.**_: position validity (✓ or X)
 * _**Speed**_: speed the competitor is traveling at
 * _**dt**_: time since the last transmitted position
-* _**st**_: status(es) (_Manual off_ , _Collected_ , _SOS_ , _Not moving_, _Retired_ , _Low battery_)
+* _**st**_: status(es)
 * _**Bat**_: level of the tracking device's battery.
 
 ### Device statuses
