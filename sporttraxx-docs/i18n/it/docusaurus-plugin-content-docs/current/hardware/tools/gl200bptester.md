@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 
 <img
-  src={require('/img/devices/gl200bptester.png').default}
+  src={require('/img/devices/GL200bptester.png').default}
   alt="Example banner"
   class="hardware-image jpeg"
 />
