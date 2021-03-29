@@ -21,7 +21,7 @@ This powerful tool allows several types of investigations during and/or after th
 
 In the map, the track line(s) is shown, with its speed diagram on the bottom. 
 
-Scrolling the cursor below the map, from left to right, you play back the run of that tracker. Leaving the cursor on the slider you can advance and return second by second by using the LeftArrow and RightArrow. Leaving the cursor in any point of the map you can advance and return position by position using the buttons PageUp and PageDown. 
+Scrolling the cursor below the map, from left to right, you play back the run of that tracker. Leaving the cursor on the slider you can advance and return second by second by using the 🠘 e 🠚 keys. Leaving the cursor in any point of the map you can advance and return position by position using the Page🠙 and Page🠛 keys. 
 
 Selecting an area in the speed diagram, you can enlarge it, up to several times. Return to the full day diagram with double click on it.
 

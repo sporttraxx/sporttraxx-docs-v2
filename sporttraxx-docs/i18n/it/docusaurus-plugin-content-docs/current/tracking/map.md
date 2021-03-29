@@ -5,35 +5,37 @@ sidebar_label: Map
 custom_edit_url: null
 ---
 
-This page allows manual intervention on the icons shown on the [Map2D](map2d) page.  
+Questa pagina permette lo spostamento **manuale** delle icone mostrate nella [Map2D](map2d).  
 
 ![Map Page](/img/screenshots/map.png)
 
-Competitors' icons may be dragged manually to a new location, with the option of showing them green if moving (a random speed value of 60/70 km/h) or blue if stopped. 
+
+Le icone dei concorrenti possono essere trascinate manualmente, con l'opzione di mostrarle verdi se in movimento (con una velocità casuale tra i 60 e i 70 km/h) oppure blu, se fermo.
 
 ## Functions
 ### Reload
-Update all actual positions.  **Note**: this page DOES NOT refresh automatically. So each time you use it, first **update** the positions.
+Aggiorna tutte le posizioni.  **Attenzione**: Questa pagina non si aggiorna automaticamente. Quindi, come prima cosa dopo aver aperto la pagina, aggiornare tutte le posizioni.
 ### Zoom all 
-Concentrate all vehicles in that map window. 
+Concentra tutti le icone dei veicoli nella finestra della mappa. 
 
-## Use
-### Move a vehicle
-1. The _Moving_ checkbox on the side decides if a new manually assigned position is shown moving or static;
-2. Find the vehicle in the **Devices** box on the right and select it;
-3. Zoom in, drag that vehicle to its new position and release it;
+## Uso
+### Spostare un veicolo
+1. Selezionare il checkbox _Moving_ sul lato per decidere se l'icona da spostare manualmente dovrà apparire in movimento o meno;
+2. Cercare il veicolo nel riquadro **Devices** sulla destra e selezionarlo;
+3. Ingrandire la mappa e spostare il veicolo nella nuova posizione.
 
-The vehicle will now have jumped to its new manually assigned position in the [Map2D](map2d) page.  
-A manually relocated position is not shown in the [Track Analysis](trackanalysis) history.
-Vehicles without a valid GPS position are shown at 0,0 coordinates in front of the Gulf of Guinea.
+Il veicolo apparirà ora nella nuova posizione sulla [Map2D](map2d).
+Gli spostamenti manuali non compaiono nella storia della [Track Analysis](trackanalysis).  
 
-### Make a hidden vehicle reappear
-To make a vehicle appear again in the Map page, after it was hidden:
-1. Center the map on the position you want the vehicle to appear again;
-2. Find the hidden vehicle in the **Hidden devices** box and select it.
+I veicoli senza una posizione GPS valida vengono mostrati alle coordinate 0,0 di fronte al Golfo di Guinea.
 
-The vehicle will appear in the center of the map. Eventually relocate it manually to a more suitable position.    
+### Far apparire un veicolo nascosto
+Per far apparire un veicolo precedentemente nascosto:
+1. Centrare la mappa nella posizione in cui si vuole far apparire il veicolo;
+2. Trovare il veicolo nascosto nella lista **Hidden devices** e selezionarlo.
 
-**Note**: the icons cannot show more than 2 digits. In case of doubts click on the icon and check the number in the vehicle's box.  
+Il veicolo sarà apparso al centro della mappa. Se necessario, spostarlo manualmente per aggiustarne la posizione.
 
-**Important note**: manual interventions on non-transmitting vehicles are allowed **ONLY** if its position is confirmed through a reliable source. **Do never relocate a vehicle where you might only believe it is**.
+**Attenzione**: le icone non possono mostrare più di due caratteri, quindi confermare che si tratti del veicolo interessato cliccandone l'icona e controllandone il numero nel riquadro dei veicoli.  
+
+**Importante**: ricorrere allo spostamento manuale di un veicolo che non trasmette la sua posizione **solamente** se la sua posizione è confermata da un'altra fonte affidabile. **Non spostare mai un veicolo perchè si crede possa essere in quella posizione**.

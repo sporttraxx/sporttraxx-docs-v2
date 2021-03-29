@@ -160,32 +160,36 @@ a:hover {
     height:auto;
 }
 
-.outer-dot {
+.outer-shape {
     height: 34px;
     width: 34px;
     background-color: darkgray;
-    border-radius: 50%;
     display: inline-block;
     margin-bottom: 3px;
 }
 
-.dot {
+.shape {
     height: 32px;
     width: 32px;
     background-color: white;
-    border-radius: 50%;
     margin-top: 1px;
     margin-left: 1px;
     display: inline-block;
-  }
+}
 
-.second-dot {
+.second-shape {
     height: 28px;
     width: 28px;
-    border-radius: 50%;
     display: inline-block;
     margin-top: 2px;
     margin-left: 2px;
+}
+.outer-dot, .dot, .second-dot {
+    border-radius: 50%;
+}
+
+.outer-square, .square, .second-square {
+    border-radius: 20%;
 }
 
 .green {

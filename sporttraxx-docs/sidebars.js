@@ -96,6 +96,7 @@ module.exports = {
       items: [
         'hardware/tools/30acharger',
         'hardware/tools/50acharger',
+        'hardware/tools/craddle',
         'hardware/tools/gl200bptester',
         'hardware/tools/killer',
       ],

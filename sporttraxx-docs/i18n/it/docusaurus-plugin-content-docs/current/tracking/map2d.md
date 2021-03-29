@@ -4,78 +4,80 @@ title: Map2D
 sidebar_label: Map2D
 custom_edit_url: null
 ---
-This page shows the live-tracking on different maps and allows some basic interactions with the tracking devices.  
+Questa pagina mostra il live-tracking dell'evento su tipologie di mappa diverse, oltre a fornire un'interazione basilare con i dispositivi di tracking.
 
 ![Map2D Page](/img/screenshots/map2d.png)
-## Search bar
+## Barra di ricerca
 ### Menu
-Clicking on the menu icon in the search box opens a side menu with these options:
-* _**Map Type**_: Allows the selection of different cartographic and satellite maps. Including an empty map to print/send screenshots with reduced file size
-* _**Other settings**_: **Toggle places** shows on the map the actual locations of Sporttraxx clocks highlighting their “should be” position. That helps detecting wrong placements of timing equipment on the field. **Toggle ruler**  opens a ruler tool that allows measurements between points and heading indication (CAP), useful for quick helicopter interventions.
-* _**Links**_: Links back to the [Overview](overview) page.
-### Search field
-To target and center the map to a specific competitor, type its number or name in the search field.
-A competitor's box will be opened on the bottom of the map. Same can be accomplished by clicking on the competitor's icon in the map.
-## Icons
-Icons can have two different **shapes**:
-* Round shaped, for competitors with racing number 
-* Square shaped, for service vehicles with no racing number. Service vehicles are not visible to users not logged in with a password. Also, vehicles set as “hidden” are not visible to public.  
+COn il menu a tendina della barra di ricerca, si ha accesso alle seguenti opzioni:
+* _**Map Type**_: Permette la scelta di diverse tipologie di mappa, comprese di mappa bianca da stampare/usare per screenshot.
+* _**Other settings**_: **Toggle places** mostra sulla mappa la posizione degli [Orologi Sporttraxx](../hardware/clock), mettendo in evidenza la posizione dove 'dovrebbero' essere. Ciò aiuta nell'identificare un errore nel posizionare l'equipaggiamento sul tracciato di gara. **Toggle ruler** apre lo strumento Ruler che permette di misurare distanze tra punti e opens a ruler tool that allows measurements between points and indicazioni di rotta, utili per eventuali interventi rapidi di un elicottero.
+* _**Links**_: Link alla [Overview](overview).
+### Campo di ricerca
+Per centrare la mappa su uno specifico concorrente, digitare il suo nome o numero di gara nel campo di ricerca.
+Un riquadro con le informazioni del concorrente cercato verrà aperto nella parte inferiore della mappa. Lo stesso risultato viene ottenuto selezionando l'icona del concorrente nella mappa.
+## Icone
+Le icone dei veicoli hanno **forme** diverse:
+* <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot blue"><span class="number">101</span></span></span></span> Rotonde, per i concorrenti 
+* <span class="outer-shape outer-square"><span class="shape square"><span class="second-shape second-square blue"><span class="number">101</span></span></span></span> Quadrate, per i veicoli di servizio. Questi non sono visibili agli utenti non loggati. 
+Inoltre, i veicoli "nascosti" non sono visibili al pubblico.  
 
-The **color** of a competitor's icon is essential in understanding its current status:  
+Il **colore** dell'icona di un concorrente è essenziale nel comprendere il suo stato attuale:  
 
-* <span class="outer-dot"><span class="dot"><span class="second-dot green"><span class="number">101</span></span></span></span>   Green when moving (speed > 7 km/h)
+* <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot green"><span class="number">101</span></span></span></span> Verde quando in movimento (velocità > 7 km/h).
 
-* <span class="outer-dot"><span class="dot"><span class="second-dot blue"><span class="number">101</span></span></span></span> Blue when stopped  
-* <span class="outer-dot"><span class="dot"><span class="second-dot yellow"><span class="number">101</span></span></span></span> Yellow when OK button was pressed (till manual reset)  
-* <span class="outer-dot"><span class="dot"><span class="second-dot red"><span class="number">101</span></span></span></span> Red when SOS button was pressed (till manual reset)  
-* <span class="outer-dot"><span class="dot"><span class="second-dot gray"><span class="number">101</span></span></span></span> Gray if the competitor has retired (till manual reset)  
-* <span class="outer-dot"><span class="dot"><span class="second-dot orange"><span class="number">101</span></span></span></span> Orange when car entered an **ADA** ( Approaching Dangerous Area)  
-* <span class="outer-dot"><span class="dot"><span class="second-dot light-blue"><span class="number">101</span></span></span></span> Pale blue when sending or receiving a **GMW** (Give Me Way) request
+* <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot blue"><span class="number">101</span></span></span></span> Blu quando fermo.
+* <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot yellow"><span class="number">101</span></span></span></span> Giallo quando il pulsante OK è stato premuto (fino a reset manuale).
+* <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot red"><span class="number">101</span></span></span></span> Rosso quando è stato premuto il pulsante di SOS (fino a reset manuale).
+* <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot gray"><span class="number">101</span></span></span></span> Grigio se il concorrente si è ritirato (fino a reset manuale).
+* <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot orange"><span class="number">101</span></span></span></span> Arancione se la macchina si trova in una zona ADA (Approaching Dangerous Area).
+* <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot light-blue"><span class="number">101</span></span></span></span> Azzurro mentre manda/riceve una richiesta GMW (Give Me Way).
 
-Icon’s **transparency** may be:  
+Il colore di un'icona può essere:  
 
-* <span class="outer-dot"><span class="dot"><span class="second-dot blue"><span class="number">101</span></span></span></span> Bright color as long as the  position is updated (not older than 20 seconds)  
-* <span class="outer-dot"><span class="dot"><span class="second-dot blue-faded"><span class="number">101</span></span></span></span> Gradually fading when position is becoming old  ( > 20 seconds)  
-**Note**:  make sure the time of your PC is synchronized with the GPS/internet time since the level of fading can be affected by a wrong synchronization. 
+* <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot blue"><span class="number">101</span></span></span></span> Acceso finchè la posizione viene aggiornata (trasmissione non pi vecchia di 20 secondi.  
+* <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot blue-faded"><span class="number">101</span></span></span></span> Sbiadire in maniera graduale man mano che la posizione diventa vecchia (trasmissione più vecchia di 20 secondi).  
 
-Depending on specific settings of the trackers, if not moving and therefore not transmitting, the transparency level might stay faded till a manual request position command.  
-If the **Auto. rec. pos.** option has been selected in the Overview page, then all devices will be polled once every four minutes. That keeps the level of transparency within certain values. 
+**Attenzione**: assicurarsi che l'ora del proprio PC sia sincronizzata con l'ora GPS/Internet, poiché il livello di dissolvenza può esserne influenzato.
 
-**Note**: forced transmissions might affect the battery duration of the devices.
+A seconda delle impostazioni del tracker, se il veicolo è fermo e quindi non trasmettente, il livello di trasparenza può persistere fino ad una richiesta di posizione manuale.  
+Se nella Overview è stata selezionata l'opzione **Auto. rec. pos.**, verrà chiesta la posizione a tutti i dispositivi ogni 4 minuti, in modo da tenere sotto controllo i livelli di trasparenza delle icone.
 
-## Competitor's box
+**Attenzione**: trasmissione forzate possono influenzare la durata delle batterie dei tracker.
+
+## Riquadro del concorrente
 ![Bottom box](/img/screenshots/bottombar.png)
-Displayed information are:
+Le informazioni mostrate sono:
 * _**Number and name of competitor/service vehicle**_
 * _**Actual speed**_
-* _**GPS validity**_ (Moving the pointer on it will show actual coordinates that can be copied in the clipboard)
+* _**GPS validity**_ (Spostando il cursore su questo campo verranno mostrate le coordinate attuali, da poter copiare negli appunti se necessario
 * _**Age of last transmitted position**_
-* A purple box called **NMV flag** shows a non-movement detected by the movement sensor in the tracker.
+* Un box viola chiamato **NMV flag** mostra un non movimento rilevato dal sensore di moviemtno integrato nel tracker.
 
-### Command buttons
-* _**Toggle track**_: show/remove a tail with the last 300 transmitted positions
-* _**Request position**_: request an update of the position. As a consequence of a NMV flag, requesting a position is forcing the tracker to confirm again the NMV status
-* _**Req. Call/ACK**_: a callback request or an acknowledgment to an SOS message can be sent. **On GL300 only**, a vibration is also triggered
+### Comandi
+* _**Toggle track**_: mostra/nasconde una coda con le ultime 300 posizioni del concorrente.
+* _**Request position**_: effettua una richiesta di posizione. In seguito di una NMV flag, richiedere la posizione forza il tracker a confermare lo status di NMV.
+* _**Req. Call/ACK**_: richiede un callback o conferma la ricezione di un SOS. **Solamente sui [GL300](../hardware/gl300)** viene azioanata la vibrazione del dispositivo.
 
-### Checkboxes
-* _**SOS**_: shows a transmitted SOS request.  Can be reset by clicking on it
-* _**OK**_: shows a transmitted OK info. Can be reset by clicking on it
-* _**ADA**_: shows that the car activated the ADA alarm. The map will show approximately the affected area around the car’s icon. Can be reset by clicking on it
-* _**GMW**_: shows the car when sending GMW request. Is automatically reset after 15 seconds
-* _**OUT**_: by checking it, the icon will be turned into grey = out of race
-* _**HIDDEN**_: by checking it, the icon will not be visible to public (not logged users)
+### Checkbox
+* _**SOS**_: mostra/nasconde un SOS.
+* _**OK**_: mostra/nasconde un OK.
+* _**ADA**_: mostra/nasconde l'avviso ADA. Sulla mappa verrà mostrata approssimativamente l'area influenzata attorno all'icona del veicolo.
+* _**GMW**_: riporta l'azionamento da parte del veicolo della funzione GMW. Si resetta automaticamente dopo 15 secondi.
+* _**OUT**_: selezionandolo, l'icona del concorrente diventerà grigia (ritirato).
+* _**HIDDEN**_: selezionare per nascondere un concorrente.
 
-Clicking on a different icon will replace the previous competitor's box.
-## Hidden functions (key combinations)
-* _**Switch between Google Maps and MapBox**_ :
-By typing _**Shift + s m**_ the screen will switch to a different version of the [Map2D](map2d) page with different 3D map options
-* _**Show GPRS connections**_:
-By typing _**s c**_ the color of the icons will change to Green = connected or Red = disconnected
-* _**Open Ruler**_:
-By typing _**r**_ a ruler will be opened or closed on the map
-* _**Open Menu**_:
-By typing _**m**_ or _**.**_ the menu will be opened or closed on the map
-* _**Toggle Track All**_:
-By typing _**t t a**_ all the icons will leave a colored tail on the map, from that moment onwards
-* _**Show IMEI**_:
-By typing _**s i**_ all the icons will show the IMEI that last transmitted that position. Useful when using alias trackers which are transmitting in parallel mode
+Selezionando un'icona diversa verrà sostituito il riquadro con quello del nuovo concorrente.
+## Funzioni nascoste (combinazioni di tasti)
+* _**Passare da Google Maps a MapBox e viceversa**_ :
+Digitando _**Shift + s m**_ si passerà ad una versione differente della [Map2D](map2d), con opzioni di mappa 3D diverse.
+* _**Mostrare le connessioni GPRS**_:
+Digitando _**s c**_ il colore delle icone diventerà verde (connesso) o rosso (disconnesso).
+* _**Ruler**_:
+Digitando _**r**_ si aprirà/chiuderà lo strumento Ruler.
+* _**Menu**_:
+Digitando _**m**_ o _**.**_ verrà aperto/chiuso il menu della barra di ricerca.
+* _**Mostra code concorrenti**_:
+Digitando _**t t a**_ tutti i concorrenti avranno d'ora in avanti una coda colorata sulla mappa.
+* _**Mostra IMEI**_:
+Digitando _**s i**_ tutte le icone mostreranno l'IMEI che ha trasmesso l'ultima posizione. Utile nel caso di tracker Alias che lavorano in parallelo in un veicolo.

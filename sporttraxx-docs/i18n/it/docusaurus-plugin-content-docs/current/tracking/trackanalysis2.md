@@ -4,32 +4,32 @@ title: Track Analysis 2
 sidebar_label: Track Analysis 2
 custom_edit_url: null
 ---
-This page is the evolution of [Track Analysis](trackanalysis).
+Questa pagina è l'evoluzione della [Track Analysis](trackanalysis).
 
 ![Timing Page](/img/screenshots/trackanalysis2.png)
 
-## Differences from Track Analysis
-1. MapBox maps instead of Google Maps.
-2. Once the date/time window has been selected, all the competitors tracks are immediately available in the left column and they can be selected. You can change a competitor’s color by clicking on its colored square in the list.
-3. The Playback cursor can be moved manually or an automatic replay option can be started with speed up to 40x.
-4. Multi-Synchro Playback: in Multi mode, clicking on a SS Point just after the start, all selected competitors are virtually synchronized on that start and played back as if they would have started at the same time.
-5. Speed diagram can be displayed/hidden using the **^** button.
-6. Selecting/deselecting one or more competitor(s) from the left column, their tracks are immediately displayed/hidden on the map.
+## Differenze rispetto alla Track Analysis
+1. L'utilizzo di mappe MapBox al posto di Google Maps.
+2. Una volta che la data/finestra di tempo è selezionata, le tracce di tutti i concorrenti sono immediatamente disponibili nella lista di sinistra e possono essere selezionate/deselezionate. È possibile cambiare il colore della traccia di un concorrente cliccando il quadrato colorato accanto al suo nome.
+3. Lo slider per il playback può essere mosso manualmente o in modo automatico con diverse velocità, fino a 40x.
+4. Multi-Synchro Playback: nella Multi mode, selezionando un punto di una speciale, tutti i concorrenti sono virtualmente sincronizzati su quel punto, come se fossero partiti tutti nello stesso momento.
+5. Il diagramma della velocità può essere mostrato/nascosto con il pulsante **^**.
+6. Selezionando/deselezionando uno o più concorrenti dalla colonna a sinistra, le loro tracce sono immediatamente visibili/nascoste sulla mappa.
 
 
-## Special functions
-Using the hidden command **h h**, the control menu appears in the upper left corner. Type *h* to hide again.
+## Funzioni nascoste (combinazioni di tasti)
+Digitando **h h**, un menu di controllo appare nell'angolo in alto a destra. Successivamente digitare **h** per nasconderlo/mostrarlo nuovamente.
 
-Controls: 
-* **Display tracks**: shows lines between transmitted points
-* **Display points**: shows the transmitted points
-* **Display alarms**: shows positions of alarms
-* **Trackcolor**: changes the track color according to track, age or speed
-* **Pointscolor** changes the color points according to track, age or speed
+Controlli: 
+* **Display tracks**: mostra le linee tra i punti trasmessi.
+* **Display points**: mostra i punti trasmessi.
+* **Display alarms**: mostra le posizioni delle segnalazioni.
+* **Trackcolor**: cambia il colore della traccia secondo traccia, anzianità e velocità.
+* **Pointscolor** cambia il colore dei punti secondo traccia, anzianità e velocità.
 
-Color gradiants and graphic options of points, age and speed can be customized in the following fields.
+Gradienti di colore e opzioni grafiche di punti, anzianità e velocità possono essere personalizzati nei campi successivi.
 
-Do not touch the **Extra** field.
+Non interagire con il campo **Extra**.
 
-## Special import option
-You can anytime import a NMEA file into the Track Analysis 2 by dragging it on the map.
+## Opzione speciale di import
+In ogni momento è possibile importare un file **.nmea** nella Track Analysis 2 trascinandolo semplicemente sulla mappa.

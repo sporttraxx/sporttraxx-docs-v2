@@ -5,41 +5,41 @@ sidebar_label: Track Analysis
 custom_edit_url: null
 ---
 
-This powerful tool allows several types of investigations during and/or after the race, processing the data saved during the race.
+Questa potente strumento permette diversi tipi di indagine durante e/o in seuito all'evento, analizzando i dati raccolti durante la gara.
 
 ![Track Analysis Page](/img/screenshots/trackanalysis.png)
 
-## Use
+## Uso
 
-1. Select the date/time window of the investigation.
-2. Select a competitor from the scroll- down list.  
-3. Using the **Load Track** button choose:
-* **Download track** for one or more  selected trackers only
-* **Load all** to download the tracks for all trackers. That might take some time and challenge the computer’s performance.
-4. One or more trackers will have been downloaded and listed on top of the map.
-5. Using the **Normal/Multi Replay** button choose a single playback of a selected tracker’s history or a multi replay of all downloaded trackers.  
+1. Selezionare la data/finestra di tempo che si vuole analizzare;
+2. Selezionare un concorrente dalla lista;
+3. Con il pulsante **Load Track** scegliere:
+* **Download track** per uno o più trackers
+* **Load all** per scaricare le tracce di tutti i tracker. Potrebbe richiedere del tempo a seconda delle carateristiche tecniche del PC.
+4. Una o più tracce saranno ora disponibile in cima alla mappa;
+5. Con il pulsante **Normal/Multi Replay** scegliere un playback singolo del tracker selezionato o un replay multiplo di tutti i concorrenti.
 
-In the map, the track line(s) is shown, with its speed diagram on the bottom. 
+Le tracce saranno ora visibili, assieme al diagramma della velocità, nella parte inferiore.
 
-Scrolling the cursor below the map, from left to right, you play back the run of that tracker. Leaving the cursor on the slider you can advance and return second by second by using the LeftArrow and RightArrow. Leaving the cursor in any point of the map you can advance and return position by position using the buttons PageUp and PageDown. 
+Trascinando il cursore sul diagramma, è possibile vedere un replay della gara per quel tracker. Lasciando il focus sullo slider, è possibile spostarsi avanti e indietro (secondo per secondo) usando i tasti 🠘 e 🠚 mentre con il focus sulla mappa, è possibile spostarsi di trasmissione in trasmissione usano i tasti Page🠙 e Page🠛.
 
-Selecting an area in the speed diagram, you can enlarge it, up to several times. Return to the full day diagram with double click on it.
+Selezionando una sezione nel diagramma, è possibile ingrandirla fino a diverse volte per un'analisi più selettiva. Cliccando due volte si torna al diagramma intero.
 
-If more trackers have been downloaded, you can select one by clicking on its name. If you want to play back all of them, then select the **Multi Replay** option. 
+Se sono state scaricate più tracce, è possibile selezionarne una cliccando sul nome del concorrente. Se invece si desidera un replay di tutti i concorrenti, selezionare l'opzione **Multi Replay**. 
 
-You can change color by clicking on its name.
+È possibile cambiare il colore di una traccia cliccando sul nome. 
 
-The **Alarms** button shows where SOS/OK/ADA/GMW buttons have been pressed, along the track.
+Il pulsante **Alarms** mostra dove le varie segnalazioni SOS/OK/ADA/GMW sono state emesse lungo la traccia.
 
-The **Chart** button allows the use of speed diagrams and shows track point details in the box in the map. 
+Il pulsante **Chart** permette l'uso del diagramma di velocità e mostra i dettagli dei punti della traccia.
 
-The **x** button removes that tracker from the page.
+La **x** rimuove quel tracker dalla mappa.
 
-Inside the map window following buttons are available:
-* **Map**:   to switch between maps and satellite maps
-* **Places**: to show timing points on the map. Their positions can be adjusted by dragging them 
-* **Tracks**: to show the KML tracks on the map,  eg. the stages
-* **Ruler**: to measure distances on the map
-* **Enlarge**: to bring map to full screen size
+Al'interno della mappa sono presenti i seguenti pulsanti:
+* **Map**: per cambiare tipologia di mappa.
+* **Places**: mostra i punti di cronometraggio sulla mappa. Trascinandoli, è possibile modificare la loro posizione.
+* **Tracks**: mostra la traccia KML sulla mappa.
+* **Ruler**: abilita lo strumento Ruler.
+* **Enlarge**: mostra la mappa a schermo intero.
 
-The Info box show values such as distance, number of track points, time, speed and heading
+Il riquadro Info mostra informazioni quali distanza, numero di punti traccia, ora, velocità e direzione.

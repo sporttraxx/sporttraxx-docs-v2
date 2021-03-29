@@ -1,7 +1,7 @@
 ---
 id: results-during
 title: Durante un evento
-sidebar_label: Durante
+sidebar_label: Durante 🚧
 custom_edit_url: null
 ---
 

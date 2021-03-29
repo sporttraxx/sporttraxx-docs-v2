@@ -11,31 +11,33 @@ This page shows the live-tracking on different maps and allows some basic intera
 ### Menu
 Clicking on the menu icon in the search box opens a side menu with these options:
 * _**Map Type**_: Allows the selection of different cartographic and satellite maps. Including an empty map to print/send screenshots with reduced file size
-* _**Other settings**_: **Toggle places** shows on the map the actual locations of Sporttraxx clocks highlighting their “should be” position. That helps detecting wrong placements of timing equipment on the field. **Toggle ruler**  opens a ruler tool that allows measurements between points and heading indication (CAP), useful for quick helicopter interventions.
+* _**Other settings**_: **Toggle places** shows on the map the actual locations of [Sporttraxx clocks](../hardware/clock) highlighting their “should be” position. That helps detecting wrong placements of timing equipment on the field. **Toggle ruler**  opens a ruler tool that allows measurements between points and heading indication (CAP), useful for quick helicopter interventions.
 * _**Links**_: Links back to the [Overview](overview) page.
 ### Search field
 To target and center the map to a specific competitor, type its number or name in the search field.
 A competitor's box will be opened on the bottom of the map. Same can be accomplished by clicking on the competitor's icon in the map.
 ## Icons
 Icons can have two different **shapes**:
-* Round shaped, for competitors with racing number 
-* Square shaped, for service vehicles with no racing number. Service vehicles are not visible to users not logged in with a password. Also, vehicles set as “hidden” are not visible to public.  
+* <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot blue"><span class="number">101</span></span></span></span> Round shaped, for competitors with racing number 
+* <span class="outer-shape outer-square"><span class="shape square"><span class="second-shape second-square blue"><span class="number">101</span></span></span></span> Square shaped, for service vehicles with no racing number. Service vehicles are not visible to users not logged in with a password.
+
+Also, vehicles set as “hidden” are not visible to public.  
 
 The **color** of a competitor's icon is essential in understanding its current status:  
 
-* <span class="outer-dot"><span class="dot"><span class="second-dot green"><span class="number">101</span></span></span></span>   Green when moving (speed > 7 km/h)
+* <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot green"><span class="number">101</span></span></span></span>   Green when moving (speed > 7 km/h)
 
-* <span class="outer-dot"><span class="dot"><span class="second-dot blue"><span class="number">101</span></span></span></span> Blue when stopped  
-* <span class="outer-dot"><span class="dot"><span class="second-dot yellow"><span class="number">101</span></span></span></span> Yellow when OK button was pressed (till manual reset)  
-* <span class="outer-dot"><span class="dot"><span class="second-dot red"><span class="number">101</span></span></span></span> Red when SOS button was pressed (till manual reset)  
-* <span class="outer-dot"><span class="dot"><span class="second-dot gray"><span class="number">101</span></span></span></span> Gray if the competitor has retired (till manual reset)  
-* <span class="outer-dot"><span class="dot"><span class="second-dot orange"><span class="number">101</span></span></span></span> Orange when car entered an **ADA** ( Approaching Dangerous Area)  
-* <span class="outer-dot"><span class="dot"><span class="second-dot light-blue"><span class="number">101</span></span></span></span> Pale blue when sending or receiving a **GMW** (Give Me Way) request
+* <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot blue"><span class="number">101</span></span></span></span> Blue when stopped  
+* <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot yellow"><span class="number">101</span></span></span></span> Yellow when OK button was pressed (till manual reset)  
+* <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot red"><span class="number">101</span></span></span></span> Red when SOS button was pressed (till manual reset)  
+* <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot gray"><span class="number">101</span></span></span></span> Gray if the competitor has retired (till manual reset)  
+* <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot orange"><span class="number">101</span></span></span></span> Orange when car entered an **ADA** ( Approaching Dangerous Area)  
+* <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot light-blue"><span class="number">101</span></span></span></span> Pale blue when sending or receiving a **GMW** (Give Me Way) request
 
 Icon’s **transparency** may be:  
 
-* <span class="outer-dot"><span class="dot"><span class="second-dot blue"><span class="number">101</span></span></span></span> Bright color as long as the  position is updated (not older than 20 seconds)  
-* <span class="outer-dot"><span class="dot"><span class="second-dot blue-faded"><span class="number">101</span></span></span></span> Gradually fading when position is becoming old  ( > 20 seconds)  
+* <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot blue"><span class="number">101</span></span></span></span> Bright color as long as the  position is updated (not older than 20 seconds)  
+* <span class="outer-shape outer-dot"><span class="shape dot"><span class="second-shape second-dot blue-faded"><span class="number">101</span></span></span></span> Gradually fading when position is becoming old  ( > 20 seconds)  
 **Note**:  make sure the time of your PC is synchronized with the GPS/internet time since the level of fading can be affected by a wrong synchronization. 
 
 Depending on specific settings of the trackers, if not moving and therefore not transmitting, the transparency level might stay faded till a manual request position command.  
