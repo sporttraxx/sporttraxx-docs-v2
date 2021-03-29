@@ -224,3 +224,28 @@ a:hover {
     font-weight: bold;
     margin-left: 4px;
 }
+
+.sos {
+    background-color: red;
+}
+
+.off {
+    background-color: black;
+}
+
+.out {
+    background-color: gray;
+}
+
+.nmv {
+    background-color: rgb(163, 0, 155);
+}
+
+.collected {
+    background-color: rgb(56, 160, 163);
+}
+
+.lowbat {
+    color: black;
+    background-color: rgb(255, 196, 0);
+}

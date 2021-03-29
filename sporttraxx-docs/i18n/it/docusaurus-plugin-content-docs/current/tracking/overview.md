@@ -21,6 +21,14 @@ It also possible to customize the [Map2D](map2d) icons with colors and activate 
 * _**st**_: status(es) (_Manual off_ , _Collected_ , _SOS_ , _Not moving_, _Retired_ , _Low battery_)
 * _**Bat**_: level of the tracking device's battery.
 
+### Device statuses
+* <span class="badge off">off</span> The device has been turned off manually.
+* <span class="badge collected">coll</span> Sporttraxx has got the device back. 
+* <span class="badge sos">SOS</span> The competitor issued an SOS alarm.
+* <span class="badge nmv">NMV</span> The tracker does not detect any movement.
+* <span class="badge out">out</span> The competitor has retired.
+* <span class="badge lowbat">lowbat</span> The battery level is dangerously low.
+
 Each column can be sorted by clicking on its name on the top.  
 If alias trackers are used, an additional battery column will be automatically displayed.  
 The overview page will automatically fill its lines with the competitor’ details, as soon as they connect to GPRS for the first time.  

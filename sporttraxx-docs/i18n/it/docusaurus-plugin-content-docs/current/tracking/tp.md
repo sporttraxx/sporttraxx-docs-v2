@@ -22,7 +22,7 @@ Link alla pagina [Order](order).
 ### Edit
 Apre un editor dove prove speciali, trasferimenti e Waypoint possono esser emostrati/nascosti.
 
-## Funzioni del menù
+## Funzioni del menu
 ### Single line view 
 Cambiare la modalità di visualizzazione con una diversa, dove i concorrenti sono mostrati tutti su una singola linea.
 
