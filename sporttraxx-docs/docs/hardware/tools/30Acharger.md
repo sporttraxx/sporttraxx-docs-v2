@@ -11,7 +11,7 @@ custom_edit_url: null
   class="hardware-image jpeg"
 />
 
-
+## Description
 This charger allows to charge trackers and clocks using: miniUSB or magnetic cables, miniUSB or magnetic charging grids (with a max. current up to 30 Ampere on 4 ports). 
 
 Please do **never** exceed 25A to avoid overheating and self protection of the charger. 
