@@ -17,4 +17,4 @@ Work in progress!
 />
 
 ## Download
-[Instructions](/documents/craddle.pdf)
+[Istruzioni](/documents/craddle.pdf)
