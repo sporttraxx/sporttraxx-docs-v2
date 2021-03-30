@@ -14,7 +14,7 @@ custom_edit_url: null
 
 Questo dispositivo è stato pensato per i rally UK. Si basa su un [GL200](gl200) ma prevede un batteria da 2600mAh. che può durare fino a **24 ore** di uso continuato. Ha inoltre un pulsante di SOS, un pulsante OK e un pulsante per l'accensione/spegnimento con funzione di reset ulteriore.
 
-Viene normalmente installato sulla sua Craddle al centro del cruscotto del veicolo. Può essere bloccata tramite elastici o fascette.
+Viene normalmente installato sulla sua [craddle](tools/craddle) al centro del cruscotto del veicolo. Può essere bloccata tramite elastici o fascette.
 
 ## ON/OFF
 

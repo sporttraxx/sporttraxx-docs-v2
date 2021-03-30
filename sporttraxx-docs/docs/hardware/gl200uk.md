@@ -16,7 +16,7 @@ This tracker has been designed for the UK rallies. It is based on the [GL200](gl
 
 It is installed on its craddle in the center of the car's dashboard. It can be locked by a rubber ring or a cable tie.
 
-The holes on the bottom allow the use of the UK craddle.
+The holes on the bottom allow the use of the UK [craddle](tools/craddle).
 
 
 ## ON/OFF

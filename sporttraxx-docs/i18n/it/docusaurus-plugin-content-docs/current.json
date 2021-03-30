@@ -11,14 +11,6 @@
     "message": "Pagine",
     "description": "The label for category Pages in sidebar timing"
   },
-  "sidebar.hardware.category.Introduction": {
-    "message": "Introduzione",
-    "description": "The label for category Introduction in sidebar hardware"
-  },
-  "sidebar.hardware.category.Devices": {
-    "message": "Dispositivi",
-    "description": "The label for category Devices in sidebar hardware"
-  },
   "sidebar.hardware.category.Accessories and Tools": {
     "message": "Strumenti e accessori",
     "description": "The label for category Accessories and Tools in sidebar hardware"
@@ -34,5 +26,17 @@
   "sidebar.results.category.Event management": {
     "message": "Gestione di un evento",
     "description": "The label for category Event management in sidebar results"
+  },
+  "sidebar.hardware.category.Hardware": {
+    "message": "Hardware",
+    "description": "The label for category Hardware in sidebar hardware"
+  },
+  "sidebar.hardware.category.Tracking": {
+    "message": "Tracking",
+    "description": "The label for category Tracking in sidebar hardware"
+  },
+  "sidebar.hardware.category.Timing": {
+    "message": "Timing",
+    "description": "The label for category Timing in sidebar hardware"
   }
 }

@@ -1,7 +1,7 @@
 ---
 id: hardware-intro
-title: Hardware
-sidebar_label: Hardware
+title: Our Trackers
+sidebar_label: Our Trackers
 custom_edit_url: null
 ---
 
@@ -12,3 +12,4 @@ custom_edit_url: null
   class="hardware-image hardware-image devices"
 />
 </div>
+

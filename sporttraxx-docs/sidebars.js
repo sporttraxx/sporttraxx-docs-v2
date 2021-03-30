@@ -70,14 +70,14 @@ module.exports = {
   hardware: [
     {
       type: 'category',
-      label: 'Introduction',
+      label: 'Hardware',
       items: [
         'hardware/hardware-intro'
       ],
     },
     {
       type: 'category',
-      label: 'Devices',
+      label: 'Tracking',
       items: [
         'hardware/gl200',
         'hardware/gl200bp',
@@ -86,6 +86,12 @@ module.exports = {
         'hardware/gt200',
         'hardware/gl300',
         'hardware/recce',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Timing',
+      items: [
         'hardware/clock',
         'hardware/starting-light'
       ],

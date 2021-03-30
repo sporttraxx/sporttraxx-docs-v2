@@ -255,3 +255,7 @@ a:hover {
     color: black;
     background-color: rgb(255, 196, 0);
 }
+
+.menuLinkText_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-:hover {
+    cursor: default;
+}

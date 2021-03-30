@@ -1,7 +1,7 @@
 ---
 id: hardware-intro
-title: Hardware
-sidebar_label: Hardware
+title: I nostri Tracker
+sidebar_label: Trackers
 custom_edit_url: null
 ---
 
