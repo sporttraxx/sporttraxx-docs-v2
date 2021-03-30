@@ -5,9 +5,9 @@ sidebar_label: 50A charger
 custom_edit_url: null
 ---
 <img
-  src={require('/img/devices/50Acharger.jpeg').default}
+  src={require('/img/devices/50acharger.png').default}
   alt="Example banner"
-  class="hardware-image jpeg"
+  class="hardware-image"
 />
 
 ## Description
