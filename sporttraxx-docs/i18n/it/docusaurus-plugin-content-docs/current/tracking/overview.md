@@ -4,6 +4,9 @@ title: Overview
 sidebar_label: Overview 🚧
 custom_edit_url: null
 ---
+
+import Inbox from '@site/static/img/inbox.svg'
+
 :::caution
 
 Questa pagina sarà sostituita!
@@ -28,7 +31,7 @@ It also possible to customize the [Map2D](map2d) icons with colors and activate 
 
 ### Device statuses
 * <span class="badge off">off</span> The device has been turned off manually.
-* <span class="badge collected">coll</span> Sporttraxx has got the device back. 
+* <span class="badge collected"><Inbox className="inbox" /></span> Sporttraxx has got the device back. 
 * <span class="badge sos">SOS</span> The competitor issued an SOS alarm.
 * <span class="badge nmv">NMV</span> The tracker does not detect any movement.
 * <span class="badge out">out</span> The competitor has retired.

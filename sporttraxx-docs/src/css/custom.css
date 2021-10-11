@@ -248,6 +248,7 @@ a:hover {
 }
 
 .collected {
+    content: "/f01c";
     background-color: rgb(56, 160, 163);
 }
 
@@ -258,4 +259,8 @@ a:hover {
 
 .menuLinkText_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar-:hover {
     cursor: default;
+}
+
+.inbox {
+    width: 13px;
 }
