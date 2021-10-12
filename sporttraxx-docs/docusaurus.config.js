@@ -1,26 +1,27 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Sporttraxx',
-  tagline: 'This website is addressed to Sporttraxx Team members. Its aim is to provide a full description of the features of both hardware and software, and a guide of most of the functions and options.',
-  url: 'https://docs.sporttraxx.net',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.png',
-  organizationName: 'mschndl', // Usually your GitHub org/user name.
-  projectName: 'sporttraxx-docs', // Usually your repo name.
+  title: "Sporttraxx",
+  tagline:
+    "This website is addressed to Sporttraxx Team members. Its aim is to provide a full description of the features of both hardware and software, and a guide of most of the functions and options.",
+  url: "https://docs.sporttraxx.net",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.png",
+  organizationName: "mschndl", // Usually your GitHub org/user name.
+  projectName: "sporttraxx-docs", // Usually your repo name.
 
   noIndex: true,
 
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'it'],
+    defaultLocale: "en",
+    locales: ["en", "it"],
     localeConfigs: {
       en: {
-        label: 'English',
+        label: "English",
       },
       it: {
-        label: 'Italiano',
+        label: "Italiano",
       },
     },
   },
@@ -48,69 +49,68 @@ module.exports = {
   themeConfig: {
     colorMode: {
       // "light" | "dark"
-      defaultMode: 'dark'
+      defaultMode: "dark",
     },
     navbar: {
       logo: {
-        alt: 'Sporttraxx',
-        src: 'img/loghi/sl-white.svg',
+        alt: "Sporttraxx",
+        src: "img/loghi/sl-white.svg",
       },
       items: [
         {
-          to: 'docs/tracking/tracking-before',
-          activeBasePath: 'docs/tracking',
-          label: 'Tracking',
-          position: 'right',
+          to: "docs/tracking/tracking-before",
+          activeBasePath: "docs/tracking",
+          label: "Tracking",
+          position: "right",
         },
         {
-          to: 'docs/timing/timing-before',
-          activeBasePath: 'docs/timing',
-          label: 'Timing',
-          position: 'right',
+          to: "docs/timing/timing-before",
+          activeBasePath: "docs/timing",
+          label: "Timing",
+          position: "right",
         },
         {
-          to: 'docs/results/results-before',
-          activeBasePath: 'docs/results',
-          label: 'Results',
-          position: 'right',
+          to: "docs/results/results-before",
+          activeBasePath: "docs/results",
+          label: "Results",
+          position: "right",
         },
         {
-          to: 'docs/hardware/hardware-intro',
-          activeBasePath: 'docs/hardware',
-          label: 'Hardware',
-          position: 'right',
+          to: "docs/hardware/hardware-intro",
+          activeBasePath: "docs/hardware",
+          label: "Hardware",
+          position: "right",
         },
         {
-          href: 'https://docs.google.com/spreadsheets/d/1BNkTl2ejq1C3rnIihCO_W8eVTpJMSzOGK4aEu87oDJM/edit?usp=sharing',
-          label: 'Updates',
-          position: 'right',
+          href: "https://docs.google.com/spreadsheets/d/1BNkTl2ejq1C3rnIihCO_W8eVTpJMSzOGK4aEu87oDJM/edit?usp=sharing",
+          label: "Updates",
+          position: "right",
         },
         {
-          type: 'localeDropdown',
-          position: 'right',
+          type: "localeDropdown",
+          position: "right",
         },
-
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       copyright: `Copyright © ${new Date().getFullYear()} Sporttraxx`,
     },
-    sidebarCollapsible: false,
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
+          sidebarCollapsible: false,
           // Please change this to your repo.
           //editUrl:
           //  'https://github.com/facebook/docusaurus/edit/master/website/',
           showLastUpdateTime: true,
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
