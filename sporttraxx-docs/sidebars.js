@@ -3,11 +3,7 @@ module.exports = {
     {
       type: "category",
       label: "Event management",
-      items: [
-        "tracking/tracking-before",
-        "tracking/tracking-during",
-        "tracking/tracking-after",
-      ],
+      items: ["tracking/sop", "tracking/spi"],
     },
     {
       type: "category",

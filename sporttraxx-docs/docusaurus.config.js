@@ -58,7 +58,7 @@ module.exports = {
       },
       items: [
         {
-          to: "docs/tracking/tracking-before",
+          to: "docs/tracking/sop",
           activeBasePath: "docs/tracking",
           label: "Tracking",
           position: "right",
