@@ -76,7 +76,7 @@ module.exports = {
         "hardware/gl200uk",
         "hardware/gt200",
         "hardware/gl300",
-        "hardware/gl310",
+        "hardware/gl310-320",
         "hardware/recce",
       ],
     },
